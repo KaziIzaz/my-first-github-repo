@@ -1,0 +1,81 @@
+
+.header{
+    display: flex;
+    padding: 0px 250px;
+    background-color:pink;
+justify-content: space-between;
+width: 1920px;
+height: 850px;
+}   
+    .nav-taitle{
+        color: #272727;
+        font-family: 'Open Sans', sans-serif;
+font-size: 250px;
+font-weight: 800;
+width: 700px;
+}
+.bnt-primary{
+    border-radius: 8px;
+background: #E55473;
+border-radius color: none;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+padding: 5px 5px;
+}
+
+.main-taitel{
+    padding: 10px 820px;
+    align-items: center;
+}
+
+.main-description{
+    padding: 0 230px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+   
+    font-size: 18px;
+    
+    font-weight: 400;
+    line-height: 30px;}
+.pic{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    margin gap: 10px;
+    padding: 10px 40px;
+    width: 1920px;
+height: 4867px;
+}
+.pic1{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 464px;
+height: 538px;
+padding: 0px 70px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.pic2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+height: 538px;
+flex-shrink: 0;
+}
+.pic3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+height: 538px;
+flex-shrink: 0;
+}
+.flower-name{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-right: 80px;
+    
+}
+    
